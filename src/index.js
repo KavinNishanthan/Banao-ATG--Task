@@ -1,8 +1,13 @@
+// Importing packges
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// Importing Style
 import './index.css';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Importing App
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

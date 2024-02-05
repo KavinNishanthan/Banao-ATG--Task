@@ -1,14 +1,21 @@
+// Importing packges
 import { useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import InputGroup from 'react-bootstrap/esm/InputGroup';
-import FormControl from 'react-bootstrap/esm/FormControl';
-import { Form } from 'react-bootstrap';
 
+// Importing Assets
 import Brand from '../../assets/svg/Brand.svg';
+
+// Importing bootstrap-icons
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+// Importing Pages
 import PopUpModal from '../../Pages/Login&RegisterPopUp';
+
+// Importing Bootstrap Components
+import { Form } from 'react-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import InputGroup from 'react-bootstrap/esm/InputGroup';
+import FormControl from 'react-bootstrap/esm/FormControl';
 
 export default function NavBar() {
   const [showModal, setShowModal] = useState(false);

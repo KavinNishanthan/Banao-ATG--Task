@@ -1,10 +1,15 @@
-import NavBar from '../../components/Navbarcomponent';
+// Importing Style
 import './style.css';
+
+// Importing Components
+import NavBar from '../../components/Navbarcomponent';
+import ArticleCard from '../../components/CardComponent';
+
+// Importing Assets
 import Mount from '../../assets/png/mountain.png';
 import Avathar from '../../assets/png/aavathar.png';
 import Wall from '../../assets/png/wall.png';
 import Car from '../../assets/png/car.png';
-import ArticleCard from '../../components/CardComponent';
 
 export default function Home() {
   return (

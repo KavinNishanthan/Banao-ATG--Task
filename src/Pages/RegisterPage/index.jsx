@@ -1,4 +1,7 @@
+// Importing packges
 import React from 'react';
+
+// Importing Assets
 import Register from '../../assets/svg/Register.svg';
 
 const CreateAccount = ({ handleSignin }) => {

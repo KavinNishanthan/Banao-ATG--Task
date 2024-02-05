@@ -1,8 +1,15 @@
+// Importing Models
 import { Modal } from 'react-bootstrap';
+
+// Importing style
 import './style.css';
+
+// Importing packges
 import { useState } from 'react';
-import CreateAccount from '../RegisterPage';
+
+// Importing pages
 import Login from '../LoginPage';
+import CreateAccount from '../RegisterPage';
 
 const PopUpModal = ({ showModal, handleClose }) => {
   const [signin, setSignin] = useState(true);
