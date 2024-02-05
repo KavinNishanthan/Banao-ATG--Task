@@ -1,0 +1,11 @@
+.big-img{
+    background-image: url("../../assets/png/mac.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.horizontal-line {
+    border-top: 1px solid #E0E0E0; 
+    margin: 10px 0; 
+  }
